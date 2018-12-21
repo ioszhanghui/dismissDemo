@@ -51,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F565B44F21CCC07C00F17C40 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F58920A821BA642000BB75CF /* UIViewController+dismissController.h */,
+				F58920A921BA642000BB75CF /* UIViewController+dismissController.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		F589207D21BA5BFB00BB75CF = {
 			isa = PBXGroup;
 			children = (
@@ -70,13 +79,12 @@
 		F589208821BA5BFB00BB75CF /* dismissDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F565B44F21CCC07C00F17C40 /* Core */,
 				F589208921BA5BFC00BB75CF /* AppDelegate.h */,
 				F589208A21BA5BFC00BB75CF /* AppDelegate.m */,
 				F58920A221BA5CAF00BB75CF /* TwoViewController.h */,
 				F58920A321BA5CAF00BB75CF /* TwoViewController.m */,
 				F58920A521BA5CC500BB75CF /* ThreeViewController.h */,
-				F58920A821BA642000BB75CF /* UIViewController+dismissController.h */,
-				F58920A921BA642000BB75CF /* UIViewController+dismissController.m */,
 				F58920A621BA5CC500BB75CF /* ThreeViewController.m */,
 				F589209F21BA5C9200BB75CF /* OneViewController.h */,
 				F58920A021BA5C9200BB75CF /* OneViewController.m */,
